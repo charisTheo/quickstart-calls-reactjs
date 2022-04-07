@@ -122,12 +122,6 @@ const MediaContent = ({ room }: Props) => {
     window.addEventListener('resize', handleResize);
   }, []);
 
-  console.log(
-    JSON.stringify(
-    participants.map(x => ({ id: x.participantId, audio: x.isAudioEnabled }))
-      ,null,4)
-  )
-
   if (!remoteParticipants.length) {
     const p = localParticipant;
     return (

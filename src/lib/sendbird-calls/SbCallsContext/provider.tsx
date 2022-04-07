@@ -199,7 +199,7 @@ const SbCallsProvider = ({
     RoomType,
   };
 
-  console.log('call context', callContext.calls, callContext.calls.length);
+  // console.log('call context', callContext.calls, callContext.calls.length);
   return (
     <CallContext.Provider value={callContext}>
       {children}

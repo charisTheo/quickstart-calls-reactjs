@@ -159,11 +159,6 @@ const GroupCallMain = () => {
       })
   }, [sbCalls]);
 
-  // console.log(rooms);
-  console.log(JSON.stringify(rooms[rooms.length - 1], null, 4));
-  // console.log({ onCall });
-
-
   return (
     <Wrapper>
       <Header />
